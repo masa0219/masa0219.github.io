@@ -1,0 +1,12 @@
+.calc {
+    display: table;
+    background-color: aliceblue;
+    padding: .1em;
+    width: 13em;
+}
+.row {
+    display: table-row;
+}
+#screen {
+    
+}
