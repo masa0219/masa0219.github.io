@@ -1,12 +1,158 @@
-.calc {
-    display: table;
-    background-color: aliceblue;
-    padding: .1em;
-    width: 13em;
+body {
+    margin: 0;
+    overflow: hidden;
 }
-.row {
-    display: table-row;
+
+/* section 1 style */
+
+header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(0,0,0,0.3)), url(image/logo.jpg );
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: relative;
+    height: 50em;
+    width: 100%;
 }
-#screen {
+
+header nav {
+    margin-left: 5%;
     
+}
+header nav a  {
+    display: inline;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 2vw;
+    margin-top: 2%;
+    display: inline-block;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+header nav a :hover {
+    color: aquamarine;
+    background-color: aqua;
+}
+header h1 {
+    margin-left: 5%;
+    width: 40ch;
+    font-size: 7em;
+    color: rgb(0, 255, 255);
+}
+header h5 {
+    color: white;
+    width: 40ch;
+    margin-left: 5%;
+    font-size: 2em;
+}
+
+#about-us {
+    padding-top: 7em;
+}
+#about-us div {
+    column-count: 2;
+    column-gap: 20px;
+    margin-right: 5%;
+}
+#about-us img {
+    object-fit: cover;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+#about-us h2 {
+    margin-top: 0;
+    margin-left: 1em;
+    font-size: 3em;
+    color: orange;
+    text-transform: uppercase;
+}
+#about-us p {
+    font-size: 25px;
+    width: 100%;
+}
+
+
+#donate {
+    margin-top: 12em;
+}
+#donate div {
+    column-count: 2;
+    column-gap: 50px;
+    margin-left: 5%;
+}
+#donate h2 {
+    margin-top: 0;
+    font-size: 2.5em;
+    color: rgb(161, 152, 136);
+    text-transform: uppercase;
+}
+#donate img {
+    object-fit: cover;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+#donate p {
+    font-size: 26px;
+    width: 100%;
+}
+
+
+#contact-us {
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: relative;
+    height: 50em;
+    width: 100%;
+    margin-top: 5em;
+}
+#contact-us figure {
+    column-count: 2;
+    column-gap: 60px;
+    margin-left: 5%;
+    padding-top: 7em;
+}
+#contact-us img {
+    object-fit: cover;
+    width: 60%;
+    border-radius: 5px;
+}
+#contact-us h4 {
+    margin-top: 0;
+    font-size: 3em;
+    color: black;
+    text-transform: uppercase;
+}
+#contact-us p {
+    font-size: 23px;
+    width: 100%;
+    line-height: 0.8em;
+}
+#repeatable-background {
+    background-image: url(image/flower.jpg) ;
+    background-position: right bottom;
+    background-repeat: repeat-x;
+    background-attachment: relative;
+    height: 160px;
+    width: 90%;
+    margin-left: 5%;
+}
+footer {
+    background-color: yellowgreen;
+    height: 8em;
+    width: 100%;
+    overflow: hidden;
+}
+footer p {
+    position: relative;
+    padding-top: 2.5em;
+    margin-left: 40%;
 }
