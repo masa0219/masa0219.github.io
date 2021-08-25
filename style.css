@@ -141,18 +141,19 @@ header h5 {
     background-position: right bottom;
     background-repeat: repeat-x;
     background-attachment: relative;
-    height: 160px;
-    width: 90%;
-    margin-left: 5%;
+    height: 100px;
+    width: 100%;
+    
 }
 footer {
     background-color: yellowgreen;
     height: 8em;
     width: 100%;
     overflow: hidden;
+    margin-top: 3.5em;
 }
 footer p {
     position: relative;
-    padding-top: 2.5em;
     margin-left: 40%;
+    margin-top: 2.5em;
 }
